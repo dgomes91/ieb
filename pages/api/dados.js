@@ -1,9 +1,9 @@
-function dados(request, response) {
+export default function dados(request, response ) {
     const dynamicDate = new Date();
 
-    response.json({
+    response.status(200).json({
         date: dynamicDate.toGMTString(),
-        Dolar: "R$ 5,16",
+        Dolar: "R$$ "+moedas,
         CDI: "13,15% a.a",
         IPCA: "0,67% ultimo mês",
         IPCA: "11,89% acumulado 12 meses",
@@ -18,5 +18,3 @@ function dados(request, response) {
         SalarioMinimo: "R$ 1.212",
     });
 }
-
-export default dados
