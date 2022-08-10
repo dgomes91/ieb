@@ -3,7 +3,7 @@ export default function dados(request, response ) {
 
     response.status(200).json({
         date: dynamicDate.toGMTString(),
-        Dolar: "R$$ "+moedas,
+        Dolar: "R$ 5,16",
         CDI: "13,15% a.a",
         IPCA: "0,67% ultimo mês",
         IPCA: "11,89% acumulado 12 meses",
