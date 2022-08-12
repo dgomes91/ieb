@@ -2,7 +2,7 @@ import React from 'react'
 import dados from './api/dados'
 import Navbarhome from '../components/Navbarhome'
 import Head from 'next/head'
-import { ThemeProvider } from 'react-bootstrap'
+import { Card, Col, ThemeProvider, Row } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export async function getStaticProps (){
@@ -26,14 +26,22 @@ const home = (props) => {
         <div>
             <Navbarhome />  
             <div>
-                <h1>Indicadores Economicos do Brasil</h1>
-                <h2>Principais indicadores brasileiros atualizados SEMPRE!</h2>
+                <h1 style={{fontSize: '1.5rem'}}>Indicadores Economicos do Brasil</h1>
+                <h2 style={{fontSize: '1.5rem'}}>Principais indicadores brasileiros atualizados <b>SEMPRE!</b></h2>
             </div>
-            <div>
-                <ul>
+            <div className={"justify-content-center"}>
+                <Row xs={5} md={3} className="g-4">
                     {staticRetorno.map((dado =>(
-                    <li key={dado.id}>{dado.name}: {dado.value}</li>)))}
-                </ul>
+                        <Col>
+                            <Card key={dado.id} border="primary" style={{ width: '18rem'}}>
+                                <Card.Body>
+                                    <Card.Title>{dado.name}:</Card.Title>
+                                    <Card.Subtitle>{dado.value}</Card.Subtitle>
+                                </Card.Body>
+                            </Card>
+                        </Col>)
+                        ))}
+                </Row>
             </div>
         </div>
         </ThemeProvider>
