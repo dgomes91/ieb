@@ -1,6 +1,20 @@
 import React from 'react'
+import dados from './api/dados'
 
-const home = () => {
+export async function getStaticProps (){
+    const staticDatastring = await dados()
+    console.log('carregando dados para home')
+    //console.log(staticDatastring)
+    return {
+        props: staticDatastring
+    }
+}
+
+const home = (props) => {
+    //const data = props.dados
+    console.log("carregando a página")
+    const staticRetorno = props.props
+    console.log(staticRetorno)
   return (
     <div>
         <nav>
@@ -16,19 +30,7 @@ const home = () => {
         </div>
         <div>
             <ul>
-                <li>Dolar x Real | R$ 5,16</li>
-                <li>CDI | 13,15% a.a</li>
-                <li>IPCA | 0,67% ultimo mês</li>
-                <li>IPCA | 11,89% acumulado 12 meses</li>
-                <li>INPC | 0,62% ultimo mês</li>
-                <li>IGPM | 1,4%</li>
-                <li>PIB | R$ 8,7 tri ano</li>
-                <li>PIB | R$ 2,2 tri Trimestre</li>
-                <li>PIB | R$ 35.161,70 per Capita 2019</li>
-                <li>TR | 0,2409</li>
-                <li>IBOVESPA | 106.471.92</li>
-                <li>Bitcoin x Real | 119.464.38</li>
-                <li>Salário Minimo | R$ 1.212</li>
+                {staticRetorno.map((dado =>(<li key={dado.id}>{dado.name}: {dado.value}</li>)))}
             </ul>
         </div>
     </div>
