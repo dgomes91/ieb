@@ -22,7 +22,7 @@ function Navbarhome() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content flex-grow-1 pe-3 align-items-center">
-                  <Nav.Link href="/home">Início</Nav.Link>
+                  <Nav.Link href="/">Início</Nav.Link>
                   <Nav.Link href="/donation">Doação</Nav.Link>
                   <NavDropdown
                     title="Sobre"

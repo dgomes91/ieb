@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.0",
+    "css-loader": "^6.7.1",
     "googleapis": "^105.0.0",
     "next": "12.2.4",
     "react": "18.2.0",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "eslint": "8.21.0",
-    "eslint-config-next": "12.2.4"
+    "eslint-config-next": "12.2.4",
+    "style-loader": "^3.3.1"
   }
 }
