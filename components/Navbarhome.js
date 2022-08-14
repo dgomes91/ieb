@@ -8,7 +8,7 @@ function Navbarhome() {
       {['sm'].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="/index">IEB</Navbar.Brand>
+            <Navbar.Brand href="/">IEB</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -22,7 +22,7 @@ function Navbarhome() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content flex-grow-1 pe-3 align-items-center">
-                  <Nav.Link href="/index">Início</Nav.Link>
+                  <Nav.Link href="/">Início</Nav.Link>
                   <Nav.Link href="/donation">Doação</Nav.Link>
                   <NavDropdown
                     title="Sobre"
