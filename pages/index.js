@@ -31,7 +31,7 @@ const Home = (props) => {
                 <p className={styles.p}>Principais indicadores brasileiros atualizados <b>SEMPRE!</b></p>
             </div>
             <div className={styles.container}>
-                <Row xxs={1} xs={1} sm={1} md={3} lg={3} xl={5} xxl={5} className="g-4">
+                <Row md={3} className="g-4">
                     {staticRetorno.map((dado =>(
                         <Col>
                             <Card key={dado.id} className={styles.card}>
