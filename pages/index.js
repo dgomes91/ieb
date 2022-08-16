@@ -22,6 +22,7 @@ const Home = (props) => {
     //console.log(staticRetorno)
   return (
     <>
+        <ThemeProvider breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}  minBreakpoint="xxs">
         <Head></Head>
         <div className={styles.body}>
             <Navbarhome />  
@@ -37,11 +38,18 @@ const Home = (props) => {
                                     <Card.Title>{dado.name}:</Card.Title>
                                     <Card.Subtitle>{dado.value}</Card.Subtitle>
                                 </Card.Body>
-                            </Card>
-                    )))}
+                                </Card>
+                        )))}
                 </Row>
             </div>
         </div>
+        </ThemeProvider>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossOrigin="anonymous"
+        />
     </>
   )
 }
