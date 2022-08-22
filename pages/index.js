@@ -2,7 +2,8 @@ import React from 'react'
 import dados from './api/dados'
 import Navbarhome from '../components/navbarhome'
 import Head from 'next/head'
-import { Card, Col, ThemeProvider, Row } from 'react-bootstrap'
+import { ThemeProvider, Row, Container } from 'react-bootstrap'
+import CardPrincipal from '../components/CardPrincipal'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from '../styles/Home.module.css'
 
@@ -22,26 +23,21 @@ const Home = (props) => {
     //console.log(staticRetorno)
   return (
     <>
+    <Head />
         <ThemeProvider breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}  minBreakpoint="xxs">
-        <Head></Head>
         <div className={styles.body}>
             <Navbarhome />  
             <div>
                 <h1 className={styles.h1}>Indicadores Economicos do Brasil</h1>
                 <p className={styles.p}>Principais indicadores brasileiros atualizados <b>SEMPRE!</b></p>
             </div>
-            <div>
+            <Container>
                 <Row>
                     {staticRetorno.map((dado =>(
-                            <Card key={dado.id}>
-                                <Card.Body>
-                                    <Card.Title>{dado.name}:</Card.Title>
-                                    <Card.Subtitle>{dado.value}</Card.Subtitle>
-                                </Card.Body>
-                                </Card>
+                        <CardPrincipal dado={dado} key={dado.id} />
                         )))}
                 </Row>
-            </div>
+            </Container>
         </div>
         </ThemeProvider>
         <link

@@ -1,0 +1,27 @@
+.card {
+    width: 190px;
+    height: 127px;
+    border-radius: 39px;
+    background: #e0e0e0;
+    box-shadow:  -25px 25px 50px #a4a4a4,
+                 25px -25px 50px #ffffff;
+    text-align: center;
+    margin-bottom: 10%;
+    align-items: center;
+    transition: 0.4s ease-out;
+    padding: 10%;
+   }
+
+/*Text*/
+.textTitle {
+    font-size:large;
+    font-weight: 500;
+   }
+   
+.textbody {
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    margin: 5px 0 15px 0;
+   }
+   
+
