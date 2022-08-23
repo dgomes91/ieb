@@ -5,19 +5,18 @@
   justify-content: center;
   align-items: center;
 }
-
 .body {
   font-style: normal;
   background-color:#e0e0e0;
 }
-
 .h1 {
   color:black;
-  font-size: '1.5rem'
+  font-size: '1.5rem';
+  text-align: center;
 }
-
 .p {
   color: black;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
