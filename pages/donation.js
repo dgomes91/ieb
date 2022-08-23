@@ -1,8 +1,10 @@
 import React from 'react'
 
-const donation = () => {
+function donation () {
   return (
-    <div>donation</div>
+    <div>
+      <h3>Em construção</h3>
+    </div>
   )
 }
 

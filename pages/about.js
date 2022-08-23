@@ -1,18 +1,11 @@
 import React from 'react'
-import Navbarhome from '../components/navbarhome'
-import { Row, Container } from 'react-bootstrap'
 
 
-const about = () => {
+function about () {
   return (
-    <>
-    <Navbarhome />
-    <Container>
-      <Row>
-        <h1>Teste</h1>
-      </Row>
-    </Container>
-    </>
+    <div>
+      <h3>Em construção</h3>
+    </div>
   )
 }
 
