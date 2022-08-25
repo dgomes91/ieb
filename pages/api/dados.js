@@ -9,7 +9,7 @@ export async function getStaticProps (){
     var btcReal = btcReal.bid
     console.log('carregando dados awesomeapi.com.br')
     return {
-            dolarReal, euroReal, btcReal
+            dolarReal, euroReal, btcReal, revalidate: 30
     }
 }
 export default async function dados(request, response ) {
@@ -64,7 +64,7 @@ export default async function dados(request, response ) {
         value: "R$ 1.212"},
         {id:"15",
         name: "Atualizado em",
-        value: dynamicDate.toGMTString()},
+        value: dynamicDate.toLocaleDateString("pt-BR")+" "+dynamicDate.toLocaleTimeString("pt-BR")},
     ]
     return {
         props: staticDados, revalidate: 30};

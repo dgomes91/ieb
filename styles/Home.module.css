@@ -1,5 +1,5 @@
 .main {
-  flex: 1;
+  flex: content;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,12 +19,12 @@
   text-align: center;
 }
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
-}
+}*/
 
 @media (prefers-color-scheme: dark) {
   .footer {
@@ -37,3 +37,12 @@
     filter: invert(1);
   }
 }
+.title{
+  margin: 5%;
+}
+@media only screen and (min-width: 600px) {
+  .title{
+    margin: 10px 2px 30px 2px;
+  }
+}
+

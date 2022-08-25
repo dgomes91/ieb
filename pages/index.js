@@ -27,10 +27,11 @@ const Home = (props) => {
         <ThemeProvider breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}  minBreakpoint="xxs">
         <div className={styles.body}>
             <Navbarhome />  
-            <div>
+            <div className={styles.title}>
                 <h1 className={styles.h1}>Indicadores Economicos do Brasil</h1>
                 <p className={styles.p}>Principais indicadores brasileiros atualizados <b>SEMPRE!</b></p>
             </div>
+            <div>
             <Container>
                 <Row>
                     {staticRetorno.map((dado =>(
@@ -38,6 +39,7 @@ const Home = (props) => {
                         )))}
                 </Row>
             </Container>
+            </div>
         </div>
         </ThemeProvider>
         <link
