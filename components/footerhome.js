@@ -1,6 +1,6 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
-import Link from 'next/Link'
+import Link from 'next/link'
 
 function Footerhome() {
   return (
