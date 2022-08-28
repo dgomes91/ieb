@@ -29,15 +29,15 @@ function contact() {
                                     <div className="form-row">
                                         <div className="row align-items-start row-cols-1 row-cols-sm-1 row-cols-md-3">
                                             <div className="mb-3 col">
-                                                <label htmlfor="exampleFormControlInput1" className="form-label">Seu nome: <span>&#10035;</span></label>
+                                                <label htmlFor="exampleFormControlInput1" className="form-label">Seu nome: <span>&#10035;</span></label>
                                                 <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="João das Neves" name="Name" required />
                                             </div>
                                             <div className="mb-3 col">
-                                                <label htmlfor="exampleFormControlInput1" className="form-label">Seu email: <span>&#10035;</span></label>
+                                                <label htmlFor="exampleFormControlInput1" className="form-label">Seu email: <span>&#10035;</span></label>
                                                 <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="joao.neves@exemplo.com.br" name="Email" required />
                                             </div>
                                             <div className="mb-3 col">
-                                                <label htmlfor="exampleFormControlInput1" className="form-label">Assunto: <span>&#10035;</span></label>
+                                                <label htmlFor="exampleFormControlInput1" className="form-label">Assunto: <span>&#10035;</span></label>
                                                 <select className="form-select" aria-label="Selecione o motivo" id="assunto" name="Assunto" required>
                                                     <option selected>Selecine o motivo desejado</option>
                                                     <option>Elogios</option>
@@ -49,7 +49,7 @@ function contact() {
                                         </div>
                                         <div className="row align-items-start">
                                             <div className="mb-3">
-                                                <label htmlfor="exampleFormControlTextarea1" className="form-label">Sua Mensagem: <span>&#10035;</span></label>
+                                                <label htmlFor="exampleFormControlTextarea1" className="form-label">Sua Mensagem: <span>&#10035;</span></label>
                                                 <textarea className="form-control" id="form-message" placeholder="Escreve sua mensagem para nós" name="Mensagem" rows="3" required></textarea>
                                             </div>
                                             <input type="hidden" name="_autoresponse" value="Agradecemos pelo seu contato!
