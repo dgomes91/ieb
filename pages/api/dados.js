@@ -12,7 +12,7 @@ export async function getStaticProps (){
             dolarReal, euroReal, btcReal, revalidate: 30
     }
 }
-export default async function dados(request, response ) {
+export default async function dados(req, res ) {
     const dynamicDate = new Date();
     const data = await getStaticProps()
     const dolar = data.dolarReal

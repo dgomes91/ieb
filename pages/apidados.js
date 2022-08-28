@@ -6,7 +6,7 @@ import { ThemeProvider, Row, Container } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from '../styles/Home.module.css'
 
-function donation() {
+function apidados() {
   return (
     <>
       <Headhome />
@@ -14,8 +14,8 @@ function donation() {
         <div className={styles.body}>
           <Navbarhome />
           <div className={styles.title}>
-            <h1 className={styles.h1}>Doação</h1>
-            <p className={styles.p}> Em construção</p>
+            <h1 className={styles.h1}>API</h1>
+            <p className={styles.p}> Fornecimento da API utilizada para alimentar este site</p>
           </div>
           <div>
             <h3>Conteudo</h3>
@@ -28,4 +28,4 @@ function donation() {
   )
 }
 
-export default donation
+export default apidados
