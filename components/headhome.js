@@ -29,7 +29,7 @@ function Headhome() {
 			<meta name="description" content="Compilado dos principais indicadores economicos do brasil atualizados SEMPRE"></meta>
 			<meta name="keywords" content="inflação, deflação, cdi, ipca, cambio, dolar, euro, bitcoin, ibovespa, cotação, pib, tr, salario mínimo, api, economia, finanças, índice"></meta>
 			<meta name="robots" content="index, follow"></meta>
-			<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+			<meta httpEquiv="Content-Type" content="text/html; charset=utf-8"></meta>
 			<meta name="language" content="Portuguese"></meta>
 			<meta name="revisit-after" content="5 days"></meta>
 			<meta name="author" content="Danilo Silva Gomes "></meta>

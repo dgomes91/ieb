@@ -19,26 +19,26 @@ function contact() {
                         <h1 className={styles.h1}>Contato</h1>
                         <h2 className={styles.p}> Queremos saber a sua opinião</h2>
                     </div>
-                    <div class="container">
+                    <div className="container">
                         <h3>Mande sua mensagem para nós!</h3>
                         <h4>Você pode utilizar o formulário a seguir ou enviar um email para <a href="contato@ieb.app.br">contato@ieb.app.br</a>.</h4>
                         <h5>Os campos marcados com <span>&#10035;</span> são <b>obrigatorios</b>.</h5>
-                        <div class="container-fluid">
+                        <div className="container-fluid">
                             <form action={formsubmit} method="POST" target="_blank">
-                                <div class="form-group">
-                                    <div class="form-row">
-                                        <div class="row align-items-start row-cols-1 row-cols-sm-1 row-cols-md-3">
-                                            <div class="mb-3 col">
-                                                <label for="exampleFormControlInput1" class="form-label">Seu nome: <span>&#10035;</span></label>
-                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="João das Neves" name="Name" required />
+                                <div className="form-group">
+                                    <div className="form-row">
+                                        <div className="row align-items-start row-cols-1 row-cols-sm-1 row-cols-md-3">
+                                            <div className="mb-3 col">
+                                                <label htmlfor="exampleFormControlInput1" className="form-label">Seu nome: <span>&#10035;</span></label>
+                                                <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="João das Neves" name="Name" required />
                                             </div>
-                                            <div class="mb-3 col">
-                                                <label for="exampleFormControlInput1" class="form-label">Seu email: <span>&#10035;</span></label>
-                                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="joao.neves@exemplo.com.br" name="Email" required />
+                                            <div className="mb-3 col">
+                                                <label htmlfor="exampleFormControlInput1" className="form-label">Seu email: <span>&#10035;</span></label>
+                                                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="joao.neves@exemplo.com.br" name="Email" required />
                                             </div>
-                                            <div class="mb-3 col">
-                                                <label for="exampleFormControlInput1" class="form-label">Assunto: <span>&#10035;</span></label>
-                                                <select class="form-select" aria-label="Selecione o motivo" id="assunto" name="Assunto" required>
+                                            <div className="mb-3 col">
+                                                <label htmlfor="exampleFormControlInput1" className="form-label">Assunto: <span>&#10035;</span></label>
+                                                <select className="form-select" aria-label="Selecione o motivo" id="assunto" name="Assunto" required>
                                                     <option selected>Selecine o motivo desejado</option>
                                                     <option>Elogios</option>
                                                     <option>Reclamações</option>
@@ -47,10 +47,10 @@ function contact() {
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="row align-items-start">
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlTextarea1" class="form-label">Sua Mensagem: <span>&#10035;</span></label>
-                                                <textarea class="form-control" id="form-message" placeholder="Escreve sua mensagem para nós" name="Mensagem" rows="3" required></textarea>
+                                        <div className="row align-items-start">
+                                            <div className="mb-3">
+                                                <label htmlfor="exampleFormControlTextarea1" className="form-label">Sua Mensagem: <span>&#10035;</span></label>
+                                                <textarea className="form-control" id="form-message" placeholder="Escreve sua mensagem para nós" name="Mensagem" rows="3" required></textarea>
                                             </div>
                                             <input type="hidden" name="_autoresponse" value="Agradecemos pelo seu contato!
                                                 Em breve vamos ler sua mensagem e entraremos em contato se for necessário.
@@ -59,7 +59,7 @@ function contact() {
                                             <input type="hidden" name="_template" value="basic"></input>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-lg btn-dark btn-block mb-3 ">Enviar</button>
+                                    <button type="submit" className="btn btn-lg btn-dark btn-block mb-3 ">Enviar</button>
                                 </div>
                             </form>
                         </div>
