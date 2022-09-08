@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
+
 function Headhome() {
 	return (
 		<Head>
@@ -40,7 +41,7 @@ function Headhome() {
 				href="https://fonts.googleapis.com" />
 			<link
 				rel="preconnect"
-				href="https://fonts.gstatic.com" crossorigin />
+				href="https://fonts.gstatic.com" crossOrigin />
 			<link
 				href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap"
 				rel="stylesheet" />
