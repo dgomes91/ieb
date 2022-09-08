@@ -15,18 +15,18 @@ function privacy() {
                     <Navbarhome />
                     <div className={styles.title}>
                         <h1 className={styles.h1}>Política de Privacidade</h1>
-                        <p className={styles.p}> Nossa política de repsonsabilidade com as informações</p>
+                        <p className={styles.p}> Nossa política de repsonsabilidade com os seus dados</p>
                     </div>
                     <div className={styles.privacybody}>
                         <h2>Política Privacidade</h2>
-                        <p>A sua privacidade é importante para nós. É política do ieb.app.br respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a href='https://ieb.app.br/'>ieb.app.br</a>, e outros sites que possuímos e operamos.</p>
+                        <p>A sua privacidade é importante para nós. É política do ieb.app.br respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a className={styles.a} href='https://ieb.app.br/'>ieb.app.br</a>, e outros sites que possuímos e operamos.</p>
                         <p>Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado. </p>
                         <p>Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</p>
                         <p>Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.</p>
                         <p>O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas políticas de privacidade. </p>
                         <p>Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.</p>
                         <p>O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contato conosco.</p>
-                        <h2>Política de Cookies ieb.app.br</h2>
+                        <h2>Política de Cookies <a className={styles.a} href='https://ieb.app.br/'>ieb.app.br</a></h2>
                         <h3>O que são cookies?</h3>
                         <p>Como é prática comum em quase todos os sites profissionais, este site usa cookies, que são pequenos arquivos baixados no seu computador, para melhorar sua experiência. Esta página descreve quais informações eles coletam, como as usamos e por que às vezes precisamos armazenar esses cookies. Também compartilharemos como você pode impedir que esses cookies sejam armazenados, no entanto, isso pode fazer o downgrade ou quebrar certos elementos da funcionalidade do site.</p>
                         <h3>Como usamos os cookies?</h3>

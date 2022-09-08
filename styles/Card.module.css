@@ -11,7 +11,9 @@
   padding: 5%;
   text-size-adjust: auto;
 }
-
+.a{
+  text-decoration:none;
+}
 /*Text*/
 .textTitle {
   font-size: large;

@@ -8,7 +8,7 @@ function CardPrincipal({ dado }) {
       <div className={styles.col}>
         <section type="card" className={styles.card}>
           <p className={styles.textTitle}>{dado.name}</p>
-          <p className={styles.textBody}>{dado.value}</p>
+          <p className={styles.textBody}><a className={styles.a} href={dado.link}>{dado.value}</a></p>
         </section>
       </div>
     </Col>
