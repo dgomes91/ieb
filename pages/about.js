@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from '../styles/About.module.css'
 import Image from 'next/image'
 import imgAuthor from '../public/profile-pic3.png'
+import imgFramework from '../public/nextjs-bootstrap.webp'
 
 function about() {
   return (
@@ -29,19 +30,29 @@ function about() {
                   <Image
                     priority
                     src={imgAuthor}
-                    alt="Foto selfie do autor"
-                    /*placeholder='blur'
-                    blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII='
-                    layout="responsive"
-                    width={169}
-                    height={300}*/
+                    alt="Foto de rosto do autor do site"
                   />
                   </div>
               </div>
             </div>
+            <div className="row">
+              <div className="col-12 col-md">
+                <h3 className={styles.h2}>Framework</h3>
+                <p className={styles.p}>A potência do framework Next.js e a versatilidade do bootstrap, uma estrutura construída na estrutura javascript mais popular e na estrutura CSS mais popular, combinadas para criar um site responsivo e escalável.</p>
+              </div>
+              <div className="col-12 col-md">
+                <div className={styles.center}>
+                  <Image
+                  priority
+                  src={imgFramework}
+                  alt="Logo da lingaguem de programação next JS e bootstrap "
+                  />
+                </div>
+              </div>
+            </div>
           </div>
+          <Footerhome />
         </div>
-        <Footerhome />
       </ThemeProvider>
 
     </>

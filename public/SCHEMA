@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchProject",
+  "name": "IEB | Indicadores Economicos do Brasil",
+  "url": "https://ieb.app.br",
+  "logo": "https://ieb.app.br/favicon.ico",
+  "alternateName": "IEB",
+  "sameAs": [
+    "https://twitter.com/IebApp"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "",
+      "contactType": "customer service",
+      "email": "contato@ieb.app.br",
+      "areaServed": "BR",
+      "availableLanguage": "pt"
+    }
+  ]
+}
+</script>

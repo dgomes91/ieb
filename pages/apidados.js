@@ -20,8 +20,8 @@ function apidados() {
           <div>
             <h3>Conteudo</h3>
           </div>
+          <Footerhome />
         </div>
-        <Footerhome />
       </ThemeProvider>
 
     </>

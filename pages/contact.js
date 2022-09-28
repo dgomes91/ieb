@@ -64,8 +64,8 @@ function contact() {
                             </form>
                         </div>
                     </div>
+                    <Footerhome />
                 </div>
-                <Footerhome />
             </ThemeProvider >
 
         </>

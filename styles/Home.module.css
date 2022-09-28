@@ -7,22 +7,22 @@
 }
 .body {
   font-style: normal;
-  background-color: #e0e0e0;
+  background-color:var(--cor-secundaria);
   font-family: 'Antonio', sans-serif;
 }
 .h1 {
-  color: #322CFF;
+  color: var(--cor-principal);
   font-size: 2rem;
   text-align: center;
 }
 .h2 {
-  color: black;
+  color: var(--cor-terciaria);
   text-align: center;
   margin-bottom: 10px;
   font-size: 97%;
 }
 .p {
-  color: black;
+  color:var(--cor-terciaria);
   text-align: center;
 }
 .privacybody{
@@ -37,7 +37,7 @@
     margin-color: #222;
   }
   .code {
-    background: #111;
+    background:var(--cor-terciaria);
   }
   .logo img {
     filter: invert(1);
