@@ -8,27 +8,26 @@ function Headhome() {
 
 	return (
 		<Head>
-			//Primary Meta Tags
+
 			<title>IEB | Indicadores Economicos do Brasil</title>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			<meta name="title" content="IEB | Indicadores Economicos do Brasil" />
 			<meta name="description" content="Compilado dos principais indicadores economicos do brasil atualizados SEMPRE" />
 
-			//Open Graph / Facebook
+
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="https://ieb.app.br/" />
 			<meta property="og:title" content="IEB | Indicadores Economicos do Brasil" />
 			<meta property="og:description" content="Compilado dos principais indicadores economicos do brasil atualizados SEMPRE" />
 			<meta property="og:image" content="" />
 
-			//Twitter
+
 			<meta property="twitter:card" content="summary_large_image" />
 			<meta property="twitter:url" content="https://ieb.app.br/" />
 			<meta property="twitter:title" content="IEB | Indicadores Economicos do Brasil" />
 			<meta property="twitter:description" content="Compilado dos principais indicadores economicos do brasil atualizados SEMPRE" />
 			<meta property="twitter:image" content="" />
 
-			//Outras
 			<meta name="title" content="IEB | Indicadores Economicos do Brasil" />
 			<meta name="description" content="Compilado dos principais indicadores economicos do brasil atualizados SEMPRE" />
 			<meta name="keywords" content="inflação, deflação, cdi, ipca, cambio, dolar, euro, bitcoin, ibovespa, cotação, pib, tr, salario mínimo, api, economia, finanças, índice" />
@@ -39,7 +38,6 @@ function Headhome() {
 			<meta name="author" content="Danilo Silva Gomes " />
 			<link rel="canonical" href={canonicalUrl} />
 
-			//Font
 			<link
 				rel="preconnect"
 				href="https://fonts.googleapis.com" />
@@ -50,7 +48,6 @@ function Headhome() {
 				href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap"
 				rel="stylesheet" />
 
-			//Favicon
 			<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
 			<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
 			<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />

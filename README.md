@@ -16,9 +16,9 @@ Monitoramos a inflação, as taxas de câmbio e as taxas de produção nacional 
     1.1.Navbar
         1.1.1. [X] Criação do logo do site
         1.1.2. [X] Inclusão do logo
-        1.1.3. [ ] Inclusão campo "increva-se" para coleta de email
-        1.1.4. [ ] Ajustar posição dos links
-        1.1.5. [ ] Criar link para facebook, twitter, github, linkedin, tiktok, instagram, youtube
+        1.1.3. [X] Inclusão campo "increva-se" para coleta de email
+        1.1.4. [X] Ajustar posição dos links
+        1.1.5. [X] Criar link para facebook, twitter, github, linkedin, tiktok, instagram, youtube
     1.2.Header
         1.2.1. [x] Inclusão das meta tags
         1.2.2. [x] Adicionar tag de título
@@ -31,11 +31,11 @@ Monitoramos a inflação, as taxas de câmbio e as taxas de produção nacional 
         1.2.9. [x] Incluir rastreamento de analytics
         1.2.10. [-] Adicionar Schema Markup
         1.2.11. [x] Adicionar Facebook Open Graph Tags
-        1.2.12. [ ] Adicionar Twitter Cards
+        1.2.12. [X] Adicionar Twitter Cards
         1.2.13. [x] Instalar facebook pixel
     1.3.Footer
-        1.3.1. [ ] Ajustar a posição dos elementos
-        1.3.2. [ ] Incluir linha de copyright
+        1.3.1. [X] Ajustar a posição dos elementos
+        1.3.2. [X] Incluir linha de copyright
     1.4.Body
         1.4.1. [ ] Otimizar o site para ser Mobile first
         1.4.2. [X] Trocar fonte
