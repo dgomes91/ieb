@@ -8,7 +8,7 @@ function Navbarhome() {
       {['sm'].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="/">IEB</Navbar.Brand>
+            <Navbar.Brand href="/">IEB.app</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}

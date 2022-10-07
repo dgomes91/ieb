@@ -4,7 +4,6 @@ import Footerhome from '../components/footerhome'
 import Headhome from '../components/headhome'
 import Link from 'next/link'
 import { ThemeProvider, Row, Container } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from '../styles/Home.module.css'
 
 function privacy() {

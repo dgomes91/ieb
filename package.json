@@ -10,6 +10,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "add": "^2.0.6",
+    "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
     "css-loader": "^6.7.1",
     "googleapis": "^105.0.0",
@@ -22,7 +28,10 @@
     "react-bootstrap": "^2.5.0",
     "react-dom": "18.2.0",
     "react-facebook-pixel": "^1.0.4",
-    "react-social-icons": "^5.14.0"
+    "react-fontawesome": "^1.7.1",
+    "react-social-icons": "^5.14.0",
+    "sheetdb-js": "^1.0.3",
+    "sheetdb-node": "^0.0.12"
   },
   "devDependencies": {
     "eslint": "8.21.0",
