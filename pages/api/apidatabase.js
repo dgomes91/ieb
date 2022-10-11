@@ -1,4 +1,4 @@
-import dados from './dados'
+import dados from './apisheetdb'
 
 export default async function handler(req, res) {
   try {
