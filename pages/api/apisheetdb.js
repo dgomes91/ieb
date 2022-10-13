@@ -40,7 +40,7 @@ export async function getStaticProps () {
 export default async function dados(req, res){
   const datasheet = await getStaticProps()
   //const dados = datasheet.dadosconsolidados
-  return{props: datasheet.dadosconsolidados, revalidadte: 30}
+  return{props: datasheet.dadosconsolidados, revalidate: 30}
 }
 /*
 export async function apisheetdb (req, res) {

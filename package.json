@@ -23,6 +23,7 @@
     "next-scripts": "^0.3.4",
     "next-seo": "^5.5.0",
     "next-sitemap": "^3.1.22",
+    "next-swagger-doc": "^0.3.6",
     "nextjs-basic-auth-middleware": "^1.0.0",
     "react": "18.2.0",
     "react-bootstrap": "^2.5.0",
@@ -31,7 +32,8 @@
     "react-fontawesome": "^1.7.1",
     "react-social-icons": "^5.14.0",
     "sheetdb-js": "^1.0.3",
-    "sheetdb-node": "^0.0.12"
+    "sheetdb-node": "^0.0.12",
+    "swagger-ui-react": "^4.14.2"
   },
   "devDependencies": {
     "eslint": "8.21.0",
