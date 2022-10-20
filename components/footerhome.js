@@ -14,7 +14,6 @@ function Footerhome() {
               <p>
                 Um conjunto de métricas que ajudam você a tomar decisões informadas.<br />
                 Estamos construindo um dashboard para acompanhar os principais indicadores da economia brasileira.<br />
-                Monitoramos a inflação, as taxas de câmbio e as taxas de produção nacional para ajudar a mantê-lo atualizado sobre o que está acontecendo no Brasil.
               </p>
             </Col>
             <Col>
@@ -41,13 +40,6 @@ function Footerhome() {
           </Row>
         </Container>
         <hr />
-        <Row className="text-center text-uppercase">
-          <Col className="px-3 col-lg-2 col-md-6 mb-4"><Link href="/"><a>Home</a></Link></Col>
-          <Col className="px-3 col-lg-2 col-md-6 mb-4"><Link href="/donation"><a>Doação</a></Link></Col>
-          <Col className="px-3 col-lg-2 col-md-6 mb-4"><Link href="/apidados"><a>API</a></Link></Col>
-          <Col className="px-3 col-lg-2 col-md-6 mb-4"><Link href="/about"><a>Quem somos</a></Link></Col>
-          <Col className="px-3 col-lg-2 col-md-6 mb-4"><Link href="/privacy"><a>Política de Privacidade</a></Link></Col>
-        </Row>
           <div className="container"><h6>Copyright @ 2022 <Link href='https://ieb.app.br/'>ieb.app.br</Link> Todos os direitos reservados</h6></div>
       </footer>
     </>

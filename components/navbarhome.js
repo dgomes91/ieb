@@ -2,11 +2,12 @@ import { Button, Container, Form, Nav, Navbar, NavDropdown, Offcanvas } from 're
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
 
+
 function Navbarhome() {
   return (
     <>
       {['sm'].map((expand) => (
-        <Navbar key={expand} bg="light" expand={expand} className="mb-3">
+        <Navbar key={expand} expand={expand} className="mb-3">
           <Container fluid>
             <Navbar.Brand href="/">IEB.app</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />

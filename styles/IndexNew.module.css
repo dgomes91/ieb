@@ -1,0 +1,143 @@
+.body{
+    background-color: #2621BF;
+    }
+.cards{
+    background-color: #FFFFFF;
+    /*width: 345px; */
+    height: 69px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    padding: 0px;
+    filter: drop-shadow(0px 10px 7px rgba(0, 0, 0, 0.5));
+    transition: 0.4s ease-out;
+    text-size-adjust: auto;
+}
+.cards .a{
+    text-decoration:none;
+  }
+.col {
+    text-align: -webkit-center;
+  }
+.cards .h2{
+    margin-top: 10%;
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 600;
+    font-size: large;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    padding: 0px;
+}
+.cards .h3{
+    margin-top:7px;
+    margin-right: 7px;
+    padding: 0px;
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: medium;
+    font-size: 0.9rem;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+.cards .h4{
+    margin-top:7px;
+    margin-right: 7px;
+    padding: 0px;
+    font-family: 'Antonio';
+    font-style: small;
+    font-weight: medium;
+    font-size: 0.7rem;
+    line-height: 21px;
+    text-align: center;
+    color: gray;
+}
+.cards .sphere{
+    position: relative;
+    margin-left: 25px;
+    margin-top: 5px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    content: center;
+    width: 53px;
+    height:53px;
+}
+.container{
+    position: relative;
+    width: auto;
+    height: auto;
+    background: #E9F4FF;
+    margin-top: 10px;
+    padding: 30px 10px 25px 10px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+}
+.navbar{
+    position: relative;
+    width: auto;
+    height: 40px;
+    top: 0px;
+    text-align: center;
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#FFFFFF;
+
+}
+.navbar span{
+    font-size: 30px;
+    margin-left: 13px;
+    color: white
+}
+.navbar .h1{
+    /* IEB.app */
+    position: relative;
+    width: 77px;
+    height: 35px;
+    left: 22px;
+    top: 3px;
+
+    /* Título 1 - h1 */
+
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.footer{
+    padding-top: 15px;
+    background-color: #000820;
+    text-align: center;
+    content: center;
+    font-family: 'Antonio';
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.footer .copyright{
+    font-size: x-small;
+}
+.footer .a{
+    text-decoration: none;
+    color: white;
+}
+.footer h6{
+    text-decoration: none;
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: medium;
+    font-size: 0.9rem;
+    line-height: 21px;
+    text-align: center;
+    color: whitesmoke;
+}
