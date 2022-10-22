@@ -1,7 +1,7 @@
 import React from 'react'
 import dados from './api/apisheetdb'
 import Headhome from '../components/headhome'
-import Navbarmobile from '../components/navbarmobile'
+import Navbarhome from '../components/navbarhome'
 import FooterMobile from '../components/footerMobile'
 import { ThemeProvider, Row, Container } from 'react-bootstrap'
 import CardPrincipalNew from '../components/CardPrincipalNew'
@@ -22,7 +22,7 @@ const Home = (props) => {
             <Headhome />
             <ThemeProvider breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']} minBreakpoint="xxs">
             <div className={styles.body}>
-                <Navbarmobile />
+                    <Navbarhome />
                 <div className={styles.container}>
                     <Container>
                         <Row>
