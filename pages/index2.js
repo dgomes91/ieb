@@ -1,11 +1,11 @@
 import React from 'react'
 import dados from './api/apisheetdb'
 import Headhome from '../components/headhome'
-import Navbarhome from '../components/navbarhome'
 import FooterMobile from '../components/footerMobile'
 import { ThemeProvider, Row, Container } from 'react-bootstrap'
 import CardPrincipalNew from '../components/CardPrincipalNew'
 import styles from '../styles/IndexNew.module.css'
+import Navbarhome from '../components/navbarhome'
 
 export async function getStaticProps() {
     const staticDatastring = await dados()

@@ -1,15 +1,16 @@
 import { Button, Container, Form, Nav, Navbar, NavDropdown, Offcanvas } from 'react-bootstrap';
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
+import styles from '../styles/Navbarhome.module.scss'
 
 
 function Navbarhome() {
   return (
     <>
       {['sm'].map((expand) => (
-        <Navbar key={expand} expand={expand} className="mb-3">
+        <Navbar key={expand} expand={expand} className={styles.navbar} bsPrefix="navbar">
           <Container fluid>
-            <Navbar.Brand href="/">IEB.app</Navbar.Brand>
+            <Navbar.Brand className={styles.navbarbrand} bsPrefix="navbarbrand" href="/">IEB.app</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}

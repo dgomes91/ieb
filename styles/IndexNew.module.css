@@ -74,45 +74,38 @@
     padding: 30px 10px 25px 10px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-
 }
 .navbar{
     position: relative;
-    width: auto;
     height: 40px;
     top: 0px;
-    text-align: center;
     font-family: 'Antonio';
     font-style: normal;
     font-weight: bolder;
     text-transform: uppercase;
     text-decoration: none;
     color:#FFFFFF;
-
+}
+.navbarbrand{
+    color: white;
 }
 .navbar span{
     font-size: 30px;
     margin-left: 13px;
     color: white
 }
-.navbar .h1{
-    /* IEB.app */
-    position: relative;
-    width: 77px;
-    height: 35px;
-    left: 22px;
-    top: 3px;
-
-    /* Título 1 - h1 */
-
+.Navbar li{
+    background-color:rgba(0, 0, 0, 0.5)
+}
+.navbar a{
     font-family: 'Antonio';
-    font-style: normal;
-    font-weight: 700;
+    font-style: medium;
+    font-weight: 400;
     font-size: 24px;
     line-height: 31px;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
+    text-transform:capitalize;
+    text-decoration: none;
+    color: #ffffffc0;
 }
 .footer{
     padding-top: 15px;

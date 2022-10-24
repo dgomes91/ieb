@@ -1,5 +1,6 @@
 import '../styles/globals.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+//import 'bootstrap/dist/css/bootstrap.min.css'
+//import '../styles/custom.scss'
 import { SSRProvider } from 'react-bootstrap'
 import Analytics from '../components/Analytics'
 import { config } from '@fortawesome/fontawesome-svg-core'

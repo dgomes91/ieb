@@ -1,0 +1,36 @@
+.navbar{
+    position: relative;
+    margin-bottom: 3rem;
+    height: 40px;
+    top: 0px;
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.navbar .navbarbrand{
+    color:#FFFFFF;
+    font-style: large;
+    font-weight: 400;
+
+}
+.navbar span{
+    font-size: 30px;
+    margin-left: 0px;
+    color: white
+}
+.Navbar li{
+    background-color:rgba(0, 0, 0, 0.5)
+}
+.navbar a{
+    font-family: 'Antonio';
+    font-style: medium;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform:capitalize;
+    text-decoration: none;
+    color: #ffffffc0;
+}
