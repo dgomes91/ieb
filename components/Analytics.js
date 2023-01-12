@@ -1,7 +1,7 @@
 import React from 'react'
 import Script from 'next/script'
 
-const gaId = process.env.GA_MEASUREMENT_ID;
+const gaId = 'G-81KZDW9XLM';
 const Analytics = () => (
     <>
         <Script

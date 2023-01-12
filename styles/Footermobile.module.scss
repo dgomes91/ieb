@@ -1,0 +1,43 @@
+.footer{
+    padding-top: 15px;
+    background-color: #000820;
+    text-align: center;
+    content: center;
+    font-family: 'Antonio';
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.footer .copyright{
+    font-size: x-small;
+}
+.footer a{
+    width: max-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: blue($color: #000000);
+}
+.footer h6{
+    text-decoration: none;
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: medium;
+    font-size: 0.9rem;
+    line-height: 21px;
+    text-align: center;
+    color: whitesmoke;
+}
+.footer svg{
+    font-size: 1.5rem;
+    align-content: center;
+    align-items: center;
+    color: whitesmoke;
+    content: icon;
+    :hover{
+        cursor: pointer;
+        color: gray;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    }
+}

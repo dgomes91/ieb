@@ -20,13 +20,14 @@
     text-align: -webkit-center;
   }
 .cards .h2{
-    margin-top: 10%;
+    margin-top: 0;
     font-family: 'Antonio';
     font-style: normal;
     font-weight: 600;
     font-size: large;
     line-height: 26px;
     text-align: center;
+    justify-content: center;
     text-transform: capitalize;
     color: #000000;
     padding: 0px;
@@ -74,63 +75,4 @@
     padding: 30px 10px 25px 10px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-}
-.navbar{
-    position: relative;
-    height: 40px;
-    top: 0px;
-    font-family: 'Antonio';
-    font-style: normal;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-decoration: none;
-    color:#FFFFFF;
-}
-.navbarbrand{
-    color: white;
-}
-.navbar span{
-    font-size: 30px;
-    margin-left: 13px;
-    color: white
-}
-.Navbar li{
-    background-color:rgba(0, 0, 0, 0.5)
-}
-.navbar a{
-    font-family: 'Antonio';
-    font-style: medium;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 31px;
-    text-transform:capitalize;
-    text-decoration: none;
-    color: #ffffffc0;
-}
-.footer{
-    padding-top: 15px;
-    background-color: #000820;
-    text-align: center;
-    content: center;
-    font-family: 'Antonio';
-    font-style: normal;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-.footer .copyright{
-    font-size: x-small;
-}
-.footer .a{
-    text-decoration: none;
-    color: white;
-}
-.footer h6{
-    text-decoration: none;
-    font-family: 'Antonio';
-    font-style: normal;
-    font-weight: medium;
-    font-size: 0.9rem;
-    line-height: 21px;
-    text-align: center;
-    color: whitesmoke;
 }
